@@ -19,7 +19,7 @@ services:
 
   home_assistant:
     container_name: home_assistant
-    image: homeassistant/home-assistant
+    image: homeassistant/home-assistant:latest
     ports:
       - "5001:8123"
     environment:
@@ -31,6 +31,19 @@ services:
     restart: unless-stopped
     networks:
       - default
+
+  grafana:
+    container_name: grafana
+    image: grafana/grafana:latest
+    ports:
+      - "5002:3000"
+    environment:
+      GF_INSTALL_PLUGINS: "grafana-clock-panel,grafana-simple-json-datasource,grafana-worldmap-panel,grafana-piechart-panel"
+      GF_DEFAULT_INSTANCE_NAME: domocorp
+      GF_SECURITY_ADMIN_USER: Domocorp
+      GF_SECURITY_ADMIN_PASSWORD: D0m0c0rp!
+    volumes:
+      - ./grafana:/var/lib/grafana
 
 volumes:
   portainer:

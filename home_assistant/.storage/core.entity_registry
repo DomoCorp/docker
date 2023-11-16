@@ -201,7 +201,11 @@
         "id": "4f2b53897d4c60d6bd24b044dc37ad46",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:theme-light-dark",
         "original_name": "Solar elevation",
@@ -229,7 +233,11 @@
         "id": "672db470fd944969b3327d2689ad0d88",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:sun-angle",
         "original_name": "Solar azimuth",
@@ -255,7 +263,11 @@
         "id": "9d4f8cc6e4a221e1338da819c22040d2",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:sun-clock",
         "original_name": "Solar rising",

@@ -44,6 +44,19 @@ services:
       GF_SECURITY_ADMIN_PASSWORD: D0m0c0rp!
     volumes:
       - ./grafana:/var/lib/grafana
+    networks:
+      - default
 
-volumes:
-  portainer:
+  influxdb:
+    container_name: influxdb
+    image: influxdb:2.7.4
+    ports:
+      - "5003:8086"
+    environment:
+      INFLUXDB_DB: db0
+      INFLUXDB_ADMIN_USER: Domocorp
+      INFLUXDB_ADMIN_PASSWORD: D0m0c0rp!
+    volumes:
+      - ./influxdb:/var/lib/influxdb2
+    networks:
+      - default

@@ -17,5 +17,20 @@ services:
     networks:
       - default
 
+  home_assistant:
+    container_name: home_assistant
+    image: homeassistant/home-assistant
+    ports:
+      - "5001:8123"
+    environment:
+      PUID: 1000
+      PGID: 1000
+      TZ: Europe/Paris
+    volumes:
+      - ./home_assistant:/config
+    restart: unless-stopped
+    networks:
+      - default
+
 volumes:
   portainer:

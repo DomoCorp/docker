@@ -1,0 +1,272 @@
+{
+  "version": 1,
+  "minor_version": 12,
+  "key": "core.entity_registry",
+  "data": {
+    "entities": [
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "c12f2214f6d0925f1c110e3557537823",
+        "device_class": null,
+        "device_id": "11947cb4134d059277b369841be254b9",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_dawn",
+        "hidden_by": null,
+        "icon": null,
+        "id": "6e28761b7d42735a2f3e87fdca4ae133",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next dawn",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_dawn",
+        "unique_id": "c12f2214f6d0925f1c110e3557537823-next_dawn",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "c12f2214f6d0925f1c110e3557537823",
+        "device_class": null,
+        "device_id": "11947cb4134d059277b369841be254b9",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_dusk",
+        "hidden_by": null,
+        "icon": null,
+        "id": "797cd2bc830430d9d50813085ab0cd96",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next dusk",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_dusk",
+        "unique_id": "c12f2214f6d0925f1c110e3557537823-next_dusk",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "c12f2214f6d0925f1c110e3557537823",
+        "device_class": null,
+        "device_id": "11947cb4134d059277b369841be254b9",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_midnight",
+        "hidden_by": null,
+        "icon": null,
+        "id": "480bd2be03dcb0e8af7e0ad4341123f3",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next midnight",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_midnight",
+        "unique_id": "c12f2214f6d0925f1c110e3557537823-next_midnight",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "c12f2214f6d0925f1c110e3557537823",
+        "device_class": null,
+        "device_id": "11947cb4134d059277b369841be254b9",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_noon",
+        "hidden_by": null,
+        "icon": null,
+        "id": "3795158ca614193430f947ea5f6774f5",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next noon",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_noon",
+        "unique_id": "c12f2214f6d0925f1c110e3557537823-next_noon",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "c12f2214f6d0925f1c110e3557537823",
+        "device_class": null,
+        "device_id": "11947cb4134d059277b369841be254b9",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_rising",
+        "hidden_by": null,
+        "icon": null,
+        "id": "5f86c2ffe60e3d8e96b81a9f7ee27b7d",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next rising",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_rising",
+        "unique_id": "c12f2214f6d0925f1c110e3557537823-next_rising",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "c12f2214f6d0925f1c110e3557537823",
+        "device_class": null,
+        "device_id": "11947cb4134d059277b369841be254b9",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_setting",
+        "hidden_by": null,
+        "icon": null,
+        "id": "710c9ab8ab66b06323d46fd085d73c9e",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Next setting",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_setting",
+        "unique_id": "c12f2214f6d0925f1c110e3557537823-next_setting",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "c12f2214f6d0925f1c110e3557537823",
+        "device_class": null,
+        "device_id": "11947cb4134d059277b369841be254b9",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_solar_elevation",
+        "hidden_by": null,
+        "icon": null,
+        "id": "4f2b53897d4c60d6bd24b044dc37ad46",
+        "has_entity_name": true,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": "mdi:theme-light-dark",
+        "original_name": "Solar elevation",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "solar_elevation",
+        "unique_id": "c12f2214f6d0925f1c110e3557537823-solar_elevation",
+        "previous_unique_id": null,
+        "unit_of_measurement": "°"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "c12f2214f6d0925f1c110e3557537823",
+        "device_class": null,
+        "device_id": "11947cb4134d059277b369841be254b9",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_solar_azimuth",
+        "hidden_by": null,
+        "icon": null,
+        "id": "672db470fd944969b3327d2689ad0d88",
+        "has_entity_name": true,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": "mdi:sun-angle",
+        "original_name": "Solar azimuth",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "solar_azimuth",
+        "unique_id": "c12f2214f6d0925f1c110e3557537823-solar_azimuth",
+        "previous_unique_id": null,
+        "unit_of_measurement": "°"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "c12f2214f6d0925f1c110e3557537823",
+        "device_class": null,
+        "device_id": "11947cb4134d059277b369841be254b9",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_solar_rising",
+        "hidden_by": null,
+        "icon": null,
+        "id": "9d4f8cc6e4a221e1338da819c22040d2",
+        "has_entity_name": true,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Solar rising",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "solar_rising",
+        "unique_id": "c12f2214f6d0925f1c110e3557537823-solar_rising",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      }
+    ],
+    "deleted_entities": []
+  }
+}
